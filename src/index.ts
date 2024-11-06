@@ -1,5 +1,5 @@
 import { ClassDeclaration, ClassElement, DeclarationStatement, isDeclarationStatement, isTypeNode } from "typescript";
-export class DomainEvent{
+ class DomainEvent{
 
     public static domainEventName : string;
     
