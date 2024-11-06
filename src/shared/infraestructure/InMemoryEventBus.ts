@@ -17,7 +17,7 @@ export class InMemoryEventBus implements EventBus{
 
     }
 
-    async addSubscribers(subscribers: Array<DomainEventSubscriber>) {
+    async addSubscribers<T extends DomainEvent>(subscribers: Array<DomainEventSubscriber<T>>) {
 
         subscribers.forEach(subscriber => {
             const eventName = subscriber.listenTo().eventName;

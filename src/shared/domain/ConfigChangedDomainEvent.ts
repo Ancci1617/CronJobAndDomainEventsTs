@@ -1,6 +1,6 @@
 import { DomainEvent } from "./DomainEvent";
 
-export class ConfigChangedDomainEvent extends DomainEvent{
+export class ConfigChangedDomainEvent {
 
 
     
