@@ -1,0 +1,21 @@
+{
+  "name": "cronjobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-schedule": "^2.1.7",
+    "node-cron": "^3.0.3",
+    "node-dependency-injection": "^3.2.2",
+    "node-schedule": "^2.1.1",
+    "typescript": "^5.6.3"
+  }
+}
